@@ -1,0 +1,123 @@
+@charset "UTF-8";
+
+:root {
+    --azulquasepreto: #050E15;
+    --azulmuitoescuro: #071726;
+    --azulescuro: #092143;
+    --azulmedio: #0D3A8F;
+    --azulclaro: #1F5CB5;
+    --azulmuitoclaro: #AAD2EC;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+section#img {
+    width: 100%;
+    height: 40vh;
+    background: url(../images/bem-vindo.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+section#login {
+    padding: 20px;
+}
+
+section#login h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+section#login p {
+    text-align: left;
+    font-size: 1.1em;
+    margin-bottom: 20px;
+}
+
+form div {
+    border: 1px solid var(--azulquasepreto);
+    margin-bottom: 10px;
+    border-radius: 10px;
+    padding: 0 5px;
+    text-align: left;
+}
+
+span.material-icons {
+    color: var(--azulescuro);
+    vertical-align: middle;
+    font-size: 36px;
+}
+
+span#iconeOlho {
+    font-size: 24px;
+}
+
+span#iconeOlho:hover {
+    cursor: pointer;
+}
+
+input#email, input#senha {
+    width: calc(100% - 69px);
+    height: 36px;
+    vertical-align: middle;
+    font-size: 1em;
+    border: none;
+}
+
+input#email:focus, input#senha:focus {
+    border: none;
+    outline: none;
+}
+
+
+div#esqueceuSenha {
+    border: none;
+    font-size: .9em;
+    text-align: right;
+}
+
+div#esqueceuSenha a {
+    color: blue;
+    text-decoration: none;
+}
+
+div#esqueceuSenha a:hover {
+    text-decoration: underline;
+}
+
+input[value="Entrar"] {
+    width: 100%;
+    font-size: 1.1em;
+    font-weight: bold;
+    background-color: var(--azulescuro);
+    color: white;
+    padding: 7.5px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: 1px solid var(--azulquasepreto);
+}
+
+input[value="Entrar"]:hover {
+    background-color: rgb(9, 33, 67, 0.9);
+    cursor: pointer;
+}
+
+input[value="Criar Conta"] {
+    width: 100%;
+    font-size: 1.1em;
+    font-weight: bold;
+    color: white;
+    background-color: var(--azulmedio);
+    border: 1px solid var(--azulquasepreto);
+    border-radius: 10px;
+    padding: 7.5px;
+}
+
+input[value="Criar Conta"]:hover {
+    background-color: rgb(13, 58, 143, 0.9);
+    cursor: pointer;
+}

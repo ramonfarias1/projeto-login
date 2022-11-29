@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 600px) {
+    body {
+        height: 100vh;
+        background: linear-gradient(to bottom, var(--azulquasepreto), var(--azulmuitoescuro), var(--azulescuro), var(--azulmedio)) no-repeat fixed;
+        text-align: center;
+    }
+
+    body::before {
+        content: '';
+        display: inline-block;
+        height: 100%;
+        vertical-align: middle;
+    }
+
+    main {
+        display: inline-block;
+        vertical-align: middle;
+        box-shadow: -5px -5px 10px black;
+        border-radius: 10px;
+        overflow: hidden;
+        background-color: white;
+    }
+
+    section#img {
+        height: 337px;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    section#img {
+        float: left;
+        width: 396.11px;
+    }
+
+    section#login {
+        float: left;
+        height: 337px;
+    }
+}
