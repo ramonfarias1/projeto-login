@@ -1,6 +1,6 @@
 # Projeto Login🔑
 
-![GIF do Projeto](https://github.com/ramonfarias1/projeto-login/blob/main/images/demo.gif)
+![GIF Demonstrativo](https://github.com/ramonfarias1/projeto-login/blob/main/images/demo.gif)
 
 ## Sobre📄
 
